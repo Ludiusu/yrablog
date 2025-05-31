@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <BasicLayout />
+    <MainLayout />
   </div>
 </template>
 
 <style></style>
+
+<script setup lang="ts">
+import MainLayout from "./layouts/MainLayout.vue";
+</script>
